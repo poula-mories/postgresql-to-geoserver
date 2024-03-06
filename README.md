@@ -20,8 +20,9 @@ Navigate to the project directory:
 
 ```bash
 cd postgresql-to-geoserver
-Install the required Python libraries:
 ```
+
+Install the required Python libraries:
 
 ```bash
 pip install -r requirements.txt
