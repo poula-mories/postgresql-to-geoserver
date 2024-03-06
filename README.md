@@ -13,7 +13,7 @@ Before running this script, ensure you have the following:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/postgresql-to-geoserver.git
+git clone https://github.com/poula-mories/postgresql-to-geoserver.git
 ```
 
 Navigate to the project directory:
@@ -34,20 +34,21 @@ pip install -r requirements.txt
 ```json
 {
     "postgresql": {
-        "host": "localhost",
-        "user": "postgres",
-        "port": 5432,
-        "password": "postgres",
-        "dbname": "olympic"
+        "host": "DB_host",
+        "user": "DB_user",
+        "port":5432,
+        "password": "DB_pass",
+        "dbname": "DB_name"
     },
     "schemas": ["cctv", "bms"],
     "geoserver": {
-        "host": "localhost",
-        "port": 8080,
-        "user": "admin",
-        "password": "geoserver"
+        "host": "GEOSERVER_host",
+        "port":8080,
+        "user": "GEOSERVER_user",
+        "password": "GEOSERVER_pass"
     }
 }
+
 ```
 3. Run the script:
 
