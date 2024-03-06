@@ -58,13 +58,13 @@ python main.py
 ```
 
 ## Configuration Explanation
-PostgreSQL: Details required to connect to your PostgreSQL database.
-Schemas: List of schemas containing tables/views to be published.
-GeoServer: Details required to connect to your GeoServer instance.
+* PostgreSQL: Details required to connect to your PostgreSQL database.
+* Schemas: List of schemas containing tables/views to be published.
+* GeoServer: Details required to connect to your GeoServer instance.
 
 ## Script Functionality
 Connects to PostgreSQL database.
-Checks for the existence of the workspace in GeoServer; creates it if it doesn't exist.
+Checks for the workspace in GeoServer; creates it if it doesn't exist.
 Retrieves tables/views from specified schemas in the PostgreSQL database.
 Creates stores in GeoServer corresponding to the schemas.
 Publishes layers to GeoServer.
