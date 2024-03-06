@@ -20,7 +20,7 @@ def connect_to_postgres(host, port, user, password, dbname):
     return conn
 
 
-# Function to get a list of tables/views from the specified schemas
+# Function to get a list of tables/views from the specified schema
 def get_tables(conn, schema):
     tables = []
     cursor = conn.cursor()
