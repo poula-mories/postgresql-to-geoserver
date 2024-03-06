@@ -1,16 +1,16 @@
 {
     "postgresql": {
-        "host": "localhost",
-        "user": "postgres",
+        "host": "DB_host",
+        "user": "DB_user",
         "port":5432,
-        "password": "postgres",
-        "dbname": "olympic"
+        "password": "DB_pass",
+        "dbname": "DB_name"
     },
     "schemas": ["cctv", "bms"],
     "geoserver": {
-        "host": "localhost",
+        "host": "GEOSERVER_host",
         "port":8080,
-        "user": "admin",
-        "password": "geoserver"
+        "user": "GEOSERVER_user",
+        "password": "GEOSERVER_pass"
     }
 }
