@@ -6,7 +6,15 @@
         "password": "DB_pass",
         "dbname": "DB_name"
     },
-    "schemas": ["cctv", "bms"],
+    "ssh": {
+        "enable_ssh": true,
+        "ssh_host": "SSH_host",
+        "ssh_user": "SSH_user",
+        "ssh_password": "SSH_password",
+        "ssh_pem_key": "path/to/your/pem/key.pem",
+        "ssh_port": 22
+    },
+    "schemas": ["schema1", "schema2"],
     "geoserver": {
         "host": "GEOSERVER_host",
         "port":8080,
