@@ -51,8 +51,7 @@ pip install -r requirements.txt
     },
     "schemas": ["schema1", "schema2"],
     "geoserver": {
-        "host": "GEOSERVER_host",
-        "port":8080,
+        "url":"http://GEOSERVER_host:8080",
         "user": "GEOSERVER_user",
         "password": "GEOSERVER_pass"
     }
